@@ -1,0 +1,10 @@
+from datetime import datetime
+
+g = datetime.now() 
+
+c = g.hour 
+p = g.day 
+
+
+t = (14 - int(p))*24 - int(c) 
+print(t)
